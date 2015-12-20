@@ -57,3 +57,13 @@ footer {
     width: 50%; /* 6 columns */
   }
 }
+
+
+.jumbotron {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-left: 220px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #eee;
+}
