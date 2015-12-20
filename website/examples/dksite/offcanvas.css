@@ -58,7 +58,8 @@ footer {
   }
 }
 
-
+/*
+-- This creates a mobile issue
 .jumbotron {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -67,3 +68,5 @@ footer {
   color: inherit;
   background-color: #eee;
 }
+
+*/
