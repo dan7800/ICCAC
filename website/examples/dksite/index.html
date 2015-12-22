@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-hi
   <!-- start Meta keywords -->
   
   <meta name="Description" content="ICCAC 2016 conference website.">
@@ -40,25 +39,6 @@ hi
     <![endif]-->
 
 
- <!-- Set the left Nav item to be active -->
- <style>
-#Home {
-  color: #fff;
-  background-color: #0066CC;
-  border-color: #0066CC;
-}
-</style>
-
-
-  <!-- Start Loading shared items -->
-  <script>
-  $(document).ready(function(){
-        $('#content').load("pages/cloneexamples.html"); 
-  });
-
-  </script>
-
-  <!-- Start Loading shared items -->
 
 
   </head>
@@ -235,6 +215,12 @@ Co-located with the Tenth IEEE International Conference on Self-Adaptive and Sel
             $('#twitterInfo').load("includes/twitterInfo.html"); 
             $('#rightPanel').load("includes/rightPanel.html"); .2
             $('#navBar').load("includes/navBar.html"); 
+
+            $(window).on('load', function(){
+                $('#Home').addClass('dkActive');
+            })
+
+            
       });
 
      
