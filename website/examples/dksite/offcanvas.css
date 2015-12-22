@@ -60,6 +60,20 @@ footer {
 
 
 
+
+.mainBody{
+
+/* padding-left: 185px; */ /*Creates mobile issues*/
+
+}
+
+
+.list-group{
+padding-right: 20px;
+
+}
+
+
 .dkActive {
 
 
