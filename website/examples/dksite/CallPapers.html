@@ -155,6 +155,9 @@
       $(document).ready(function(){
             $('#rightPanel').load("includes/rightPanel.html"); .2
             $('#navBar').load("includes/navBar.html"); 
+            $(window).on('load', function(){
+              $('#callNavLink').addClass('dkActive');
+            })
 
       });
 
