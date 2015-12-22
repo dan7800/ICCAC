@@ -59,46 +59,8 @@
       <div class="row row-offcanvas row-offcanvas-right">
 
         <div class="col-xs-12 col-sm-10">
-          <p class="pull-right visible-xs">
-            <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
-          </p>
- <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar">
+         
 
-
-
-            <div id="leftNav">
-
-
-            </div>
-
-
-          <!-- Start Left Nav -->  <!--
-          <div class="list-group">
-            <a href="#" class="list-group-item active">Home</a>
-
-          
-            <a href="#" class="list-group-item">Call for Papers</a>
-            <a href="#" class="list-group-item">Paper Submission</a>
-            <a href="#" class="list-group-item">Important Dates</a>
-            <a href="#" class="list-group-item">Organization</a>
-            <a href="#" class="list-group-item">Program</a>
-            <a href="#" class="list-group-item">Keynotes</a>
-            <a href="#" class="list-group-item">Venue and Hotel</a>
-            <a href="#" class="list-group-item">Registration</a>
-            <a href="#" class="list-group-item">Workshops</a>
-            <a href="#" class="list-group-item">History</a>
-            <a href="#" class="list-group-item">Sponsors</a>
-
-          </div> -->
-          <!-- End Left Nav -->
-
-
-          <div id="twitterInfo"></div>
-
-
-
-       
-        </div><!--/.sidebar-offcanvas-->
 
 
     <!-- End Left Column -->
@@ -160,6 +122,7 @@ Co-located with the Tenth IEEE International Conference on Self-Adaptive and Sel
 
 
         <div id="rightPanel"></div>
+
        
 
         <!-- End Right Column -->
@@ -211,14 +174,8 @@ Co-located with the Tenth IEEE International Conference on Self-Adaptive and Sel
       <!-- Start Loading shared items -->
       <script>
       $(document).ready(function(){
-            $('#leftNav').load("includes/leftNav.html"); 
-            $('#twitterInfo').load("includes/twitterInfo.html"); 
             $('#rightPanel').load("includes/rightPanel.html"); .2
             $('#navBar').load("includes/navBar.html"); 
-
-            $(window).on('load', function(){
-                $('#Home').addClass('dkActive');
-            })
 
             
       });
