@@ -58,6 +58,15 @@ footer {
   }
 }
 
+
+
+.dkActive {
+    color: #red;
+  background-color: #0066CC;
+  border-color: #0066CC;
+}
+
+
 /*
 -- This creates a mobile issue
 .jumbotron {
