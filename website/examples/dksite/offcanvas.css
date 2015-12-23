@@ -90,15 +90,10 @@ padding-right: 20px;
 }
 
 
-/*
--- This creates a mobile issue
+
+
 .jumbotron {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  margin-left: 220px;
-  margin-bottom: 30px;
-  color: inherit;
-  background-color: #eee;
+  padding-top: 5px;
 }
 
 */
