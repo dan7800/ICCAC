@@ -13,7 +13,7 @@
     <title>ICCAC 2016 Conference</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="offcanvas.css" rel="stylesheet">
@@ -31,43 +31,24 @@
          
          <!-- ************************ start main body ************************ -->
 
-
- <!-- Image taken from https://pixabay.com/en/augsburg-germany-street-houses-109469/ -->
-
-
-          <div class="jumbotron main">
+<h1>Program information</h1>
 
 
+<h3>Keynote information</h3>
+<p>TBD</p>
 
+<h3>Venue and hotel</h3>
+<p>TBD</p>
 
+<h3>Registration Information</h3>
+<p>TBD</p>
 
+<h3>Workshops</h3>
+<p>TBD</p>
 
-
-          <h1>ICCAC 2016</h1>
-          <table border="0">
-
-              <tr> <td  style="padding-right: 5px;"><img src="images/augsburg-109469_640.jpg" alt="Augsburg" style="width:380px;height:380px;"></td>
-              <td></td>
-              <td><img src="images/augsburg-109470_640.jpg" alt="Augsburg" style="width:230px;height:380px;"></td>
-              </tr>
-           
-           
-           </table>
           
-
-
-            
-            
-            <p>2016 IEEE International Conference on Cloud and Autonomic Computing (ICCAC)
-Augsburg, Germany, September 12-16, 2016
-Co-located with the Tenth IEEE International Conference on Self-Adaptive and Self-Organizing System (SASO 2016)</p>
-          </div>
-
-
-
-
-
-
+          
+          <div id="impDatesBottom"></div>
 
 
 
@@ -109,10 +90,10 @@ Co-located with the Tenth IEEE International Conference on Self-Adaptive and Sel
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="dist/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
     <script src="offcanvas.js"></script>
 
 
@@ -121,8 +102,9 @@ Co-located with the Tenth IEEE International Conference on Self-Adaptive and Sel
       $(document).ready(function(){
             $('#rightPanel').load("includes/rightPanel.html"); .2
             $('#navBar').load("includes/navBar.html"); 
+            $('#impDatesBottom').load("includes/impDates.html");  // Just for this page to load the important dates
             $(window).on('load', function(){
-              $('#homeNavLink').addClass('dkActive');
+              $('#programNavLink').addClass('dkActive');
             })
 
       });
