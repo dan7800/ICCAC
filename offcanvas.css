@@ -96,4 +96,12 @@ padding-right: 20px;
   padding-top: 5px;
 }
 
-*/
+.event-information {
+   font-weight: bold;
+   font-size: 17px;
+}
+
+.venue-hotel {
+  padding-left: 8px;
+
+}
