@@ -188,7 +188,9 @@
             $('#rightPanel').load("includes/rightPanel.html"); .2
             $('#navBar').load("includes/navBar.html"); 
             $('#impDatesBottom').load("includes/impDates.html"); 
-           
+            $(window).on('load', function(){
+              $('#AllcallNavLink').addClass('dkActive');
+            })
 
       });
 
