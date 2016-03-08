@@ -133,8 +133,22 @@
 
 
           
-
+          <!--
           <div id="impDatesBottom"></div>
+          -->
+          <br/><br/>
+          <!--<div id="papersInfo"></div> -->
+          <table border ="1">
+          <tr><th><center>Papers</center></th><th><center>Posters</center></th></tr>
+          <tr><td><div id="papersInfo"></div></td><td><div id="postersInfo"></div></td></tr>
+          </table>
+
+
+
+
+
+
+
 
 
          <!-- ************************ End main body ************************ -->
@@ -187,7 +201,10 @@
       $(document).ready(function(){
             $('#rightPanel').load("includes/rightPanel.html"); .2
             $('#navBar').load("includes/navBar.html"); 
-            $('#impDatesBottom').load("includes/impDates.html"); 
+        //    $('#impDatesBottom').load("includes/impDates.html"); 
+             $('#papersInfo').load("impDates/papers.html"); 
+             $('#postersInfo').load("impDates/poster.html"); 
+
             $(window).on('load', function(){
               $('#AllcallNavLink').addClass('dkActive');
             })

@@ -64,7 +64,7 @@
 <p>-------------------------------------------------------------------------</p>
 <h4>Important Dates</h4>
 <p>-------------------------------------------------------------------------</p>
-
+<!--
 <ul>
   <li>Workshop proposal submission deadline: April 4, 2016*</li>
   <li>Workshop acceptance notification: April 11, 2016*</li>
@@ -76,6 +76,11 @@
   <li>Workshop notes submission to WS chairs: July 26, 2016</li>
   <li>Workshops dates: September 12 &amp; 16, 2016</li>
 </ul>
+-->
+
+<div id="workshopInfo"></div>
+
+
 
 <p>* Please submit your workshop proposals as soon as possible (i.e. before April 4)! We will try to decide earlier on workshop acceptance in order to give the organizers more time to solicit papers.</p>
 
@@ -242,6 +247,7 @@ E-Mail: cms@sra.uni-hannover.de</br>
       $(document).ready(function(){
             $('#rightPanel').load("includes/rightPanel.html"); .2
             $('#navBar').load("includes/navBar.html"); 
+            $('#workshopInfo').load("impDates/workshops.html"); 
             $(window).on('load', function(){
               $('#AllcallNavLink').addClass('dkActive');
             })

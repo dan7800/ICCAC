@@ -60,6 +60,34 @@
 </p>
 
 
+<h2>Due Dates</h2>
+
+<h4>Papers</h4>
+<div id="papersInfo"></div>
+
+
+<h4>Posters</h4>
+<div id="postersInfo"></div>
+
+
+
+<h4>Workshops</h4>
+<div id="workshopInfo"></div>
+
+
+<h4>Doctoral Symposium</h4>
+<div id="doctoralInfo"></div>
+
+
+<h4>Tutorials</h4>
+<div id="tutorialsInfo"></div>
+
+
+
+
+
+
+
          <!-- ************************ End main body ************************ -->
 
     
@@ -110,6 +138,13 @@
       $(document).ready(function(){
             $('#rightPanel').load("includes/rightPanel.html"); .2
             $('#navBar').load("includes/navBar.html"); 
+
+            $('#papersInfo').load("impDates/papers.html"); 
+            $('#postersInfo').load("impDates/poster.html"); 
+            $('#workshopInfo').load("impDates/workshops.html"); 
+            $('#doctoralInfo').load("impDates/doctoral.html"); 
+            $('#tutorialsInfo').load("impDates/tutorials.html"); 
+
             $(window).on('load', function(){
               $('#AllcallNavLink').addClass('dkActive');
             })

@@ -107,10 +107,64 @@ padding-right: 20px;
 
 }
 
+/* Important Dates table for Calls */
+.dates-table td {
+  padding: 5px 10px 5px 5px;
+  font-style: oblique;
+  font-size: 16px;
+}
+
+.dates-table td.date {
+  font-weight: bold;
+}
+
+
+.dates-table {
+  margin-bottom: 30px;
+}
 
 
 
 #AnnouceConf {
  
 
+}
+
+
+
+/* Important Dates table for sidebar */
+#saso-sidebar-dates table.sidebar-dates-table {
+  border-collapse: collapse;
+}
+
+#saso-sidebar-dates .sidebar-dates-table tr {
+  border: solid;
+  border-color: #909090;
+  border-width: 1px 0;
+}
+
+#saso-sidebar-dates .sidebar-dates-table tr:first-child {
+  border-top: none;
+}
+
+#saso-sidebar-dates .sidebar-dates-table tr:last-child {
+  border-bottom: none;
+}
+
+#saso-sidebar-dates .sidebar-dates-table td {
+  padding: 2px 2px 2px 2px;
+  font-style: oblique;
+  font-size: 12px;
+}
+
+#saso-sidebar-dates .sidebar-dates-table td.date {
+  font-weight: bold;
+}
+
+#saso-sidebar-dates i {
+  padding: 10px 0px 5px 0px;
+  display: inline-block;
+  text-align: center;
+  font-style: oblique;
+  font-size: 12px;
 }
