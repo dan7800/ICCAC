@@ -124,6 +124,12 @@ padding-right: 20px;
 }
 
 
+/* Text for showing an extended deadline */
+.extended {
+  color: red;
+  font-weight: bold;
+}
+
 
 #AnnouceConf {
  
