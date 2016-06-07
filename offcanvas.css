@@ -191,3 +191,23 @@ padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
 }
+
+
+/* SM is added to handle the cases when there are multiple author images to show */
+.saso-imageSM {
+  float: right;
+  clear: both;
+  padding: 10px;
+  min-width: 100px;
+  width: 50%;
+  max-width: 300px;
+}
+
+.saso-imageSM img {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 30px;
+}
+
