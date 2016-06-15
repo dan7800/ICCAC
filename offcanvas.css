@@ -211,3 +211,35 @@ padding-right: 20px;
   padding-bottom: 30px;
 }
 
+
+.saso-image {
+  float: right;
+  clear: both;
+  padding: 10px;
+  min-width: 160px;
+  width: 50%;
+  max-width: 300px;
+}
+
+.saso-image img {
+  min-width: 140px;
+  width: 100%;
+  max-width: 280px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.saso-small-image {
+  min-width: 120px;
+  max-width: 220px;
+}
+
+.saso-small-image img {
+  min-width: 100px;
+  width: 100%;
+  max-width: 200px;
+  padding-bottom: 5px;
+}
+
+
